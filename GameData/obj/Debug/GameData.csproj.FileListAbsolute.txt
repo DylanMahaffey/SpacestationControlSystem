@@ -1,0 +1,5 @@
+C:\Users\Dylan\documents\visual studio 2017\Projects\SpaceshipSystemControls\GameData\bin\Debug\GameData.dll
+C:\Users\Dylan\documents\visual studio 2017\Projects\SpaceshipSystemControls\GameData\bin\Debug\GameData.pdb
+C:\Users\Dylan\documents\visual studio 2017\Projects\SpaceshipSystemControls\GameData\obj\Debug\GameData.csprojResolveAssemblyReference.cache
+C:\Users\Dylan\documents\visual studio 2017\Projects\SpaceshipSystemControls\GameData\obj\Debug\GameData.dll
+C:\Users\Dylan\documents\visual studio 2017\Projects\SpaceshipSystemControls\GameData\obj\Debug\GameData.pdb

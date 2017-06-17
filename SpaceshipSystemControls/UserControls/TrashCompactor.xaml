@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="SpaceshipSystemControls.UserControls.TrashCompactor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SpaceshipSystemControls.UserControls"
+             mc:Ignorable="d" Loaded="UserControl_Loaded" Height="927.722" Width="1366.091" >
+    <Grid Background="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Label Content="Trash Compactor Control System" Foreground="#FF39FF14" HorizontalAlignment="Center"  VerticalAlignment="Top" Margin="407,18,406.4,0" Width="553" FontSize="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label Content="Press ESC to return" HorizontalAlignment="Left" Foreground="#FF39FF14" Margin="10,18,0,0" VerticalAlignment="Top"/>
+        <Label Content="Start Trash Compactor:    1" Foreground="#FF39FF14" HorizontalAlignment="Center" Margin="461,73,460.4,0" VerticalAlignment="Top" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="445"/>
+        <Label Content="Shut Down Trash Compactor:    2" Foreground="#FF39FF14" HorizontalAlignment="Center" Margin="461,110,460.4,0" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="1.246,0.941" Width="445" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Image HorizontalAlignment="Center" Height="454" Margin="0,10,0,0" VerticalAlignment="Center" Width="1112" Source="/SpaceshipSystemControls;component/Images/redCompactor.png" Stretch="Fill" StretchDirection="DownOnly" Grid.Row="1"/>
+        <Rectangle x:Name="securityBreach" Fill="Red" HorizontalAlignment="Center" Height="165" Margin="109,0,108.4,20" Stroke="Black" VerticalAlignment="Bottom" Width="1149" Grid.Row="2"/>
+        <Rectangle x:Name="breachCenter" Fill="Black" HorizontalAlignment="Stretch" Height="129" Margin="127,0,126.4,38" Stroke="Black" VerticalAlignment="Bottom" Width="1113" Grid.Row="2"/>
+
+    </Grid>
+</UserControl>

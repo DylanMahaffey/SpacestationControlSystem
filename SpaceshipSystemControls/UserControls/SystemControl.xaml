@@ -1,0 +1,19 @@
+﻿<UserControl x:Name="systemControls" x:Class="SpaceshipSystemControls.UserControls.SystemControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SpaceshipSystemControls.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" Loaded="systemControls_Loaded" Width="695.772" >
+    <Grid Background="Black"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Label Content="Space Station System Controls" FontSize="30" Foreground="#FF39FF14" HorizontalAlignment="Stretch"  VerticalAlignment="Center"  Margin="0,10,0,242" Height="48" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+        <Label Content="Trash Compactor: " FontSize="20" Foreground="#FF39FF14" HorizontalAlignment="Center"  VerticalAlignment="Center" RenderTransformOrigin="0.514,-1.094" Margin="182,112,314,150" Height="38" Width="200" VerticalContentAlignment="Center" />
+        <Label Content="Tractor Beam: " FontSize="20" Foreground="#FF39FF14" HorizontalAlignment="Center"  VerticalAlignment="Center" RenderTransformOrigin="0.483,-0.78" Margin="182,209,314,53" Width="200" Height="38" VerticalContentAlignment="Center" />
+        <Label Content="Spaceship Plans: " FontSize="20" Foreground="#FF39FF14" HorizontalAlignment="Center"  VerticalAlignment="Center" Margin="182,160,314,102" Height="38" Width="200" VerticalContentAlignment="Center" />
+        <Label Content="1" FontSize="20" Foreground="#FF39FF14" HorizontalAlignment="Center"  VerticalAlignment="Center" RenderTransformOrigin="0.514,-1.094" Margin="473,112,196,150" Height="38" Width="27" VerticalContentAlignment="Center" />
+        <Label Content="2" FontSize="20" Foreground="#FF39FF14" HorizontalAlignment="Center"  VerticalAlignment="Center" RenderTransformOrigin="0.514,-1.094" Margin="473,160,196,102" Height="38" Width="27" VerticalContentAlignment="Center"/>
+        <Label Content="3" FontSize="20" Foreground="#FF39FF14" HorizontalAlignment="Center"  VerticalAlignment="Center" RenderTransformOrigin="0.514,-1.094" Margin="473,209,196,53" Height="38" Width="27" VerticalContentAlignment="Center"/>
+
+    </Grid>
+</UserControl>

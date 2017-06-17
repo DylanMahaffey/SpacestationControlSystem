@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="SpaceshipSystemControls.UserControls.GameSetup"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SpaceshipSystemControls.UserControls"
+             mc:Ignorable="d" Width="783.93" Height="438.4" Loaded="UserControl_Loaded">
+    <Grid Background="Black"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Label Foreground="#FF39FF14" HorizontalAlignment="Center"  VerticalAlignment="Center" FontSize="20" Height="38" Width="157" Margin="0,82,0,318.4"  Content="Game Setup" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Foreground="#FF39FF14" HorizontalAlignment="Center"  VerticalAlignment="Center" FontSize="20" Height="38" Width="360" Margin="24,132,400,268.4" HorizontalContentAlignment="Right"  Content="Level 1 Trooper Username:" VerticalContentAlignment="Center"/>
+        <Label Foreground="#FF39FF14" HorizontalAlignment="Center"  VerticalAlignment="Center" FontSize="20" Height="38" Width="360" Margin="24,168,400,232.4" HorizontalContentAlignment="Right"  Content="Level 1 Trooper Password:" VerticalContentAlignment="Center"/>
+        <Label Foreground="#FF39FF14" HorizontalAlignment="Center"  VerticalAlignment="Center" FontSize="20" Height="38" Width="360" Margin="24,206,400,194.4" HorizontalContentAlignment="Right"  Content="Grand Admiral Thax Username:" VerticalContentAlignment="Center"/>
+        <Label Foreground="#FF39FF14" HorizontalAlignment="Center"  VerticalAlignment="Center" FontSize="20" Height="38" Width="360" Margin="24,243,400,157.4" HorizontalContentAlignment="Right"  Content="Grand Admiral Thax Password:" VerticalContentAlignment="Center"/>
+        <Label Foreground="#FF39FF14" HorizontalAlignment="Center"  VerticalAlignment="Center" FontSize="20" Height="38" Width="360" Margin="24,320,400,80.4"  HorizontalContentAlignment="Right"  Content="Command:" VerticalContentAlignment="Center"/>
+
+        <TextBox Foreground="#FF39FF14" HorizontalAlignment="Center" VerticalAlignment="Center" Width="324" Height="38" Text="" Margin="390,132,70.2,268" Background="Black" FontSize="20" CaretBrush="#FF39FF14" BorderBrush="Black" BorderThickness="0" VerticalContentAlignment="Center"  x:Name="trooperUsername"/>
+        <TextBox Foreground="#FF39FF14" HorizontalAlignment="Center" VerticalAlignment="Center" Width="324" Height="38" Text="" Margin="390,168,70.2,232" Background="Black" FontSize="20" CaretBrush="#FF39FF14" BorderBrush="Black" BorderThickness="0" VerticalContentAlignment="Center"  x:Name="trooperPassword"/>
+        <TextBox Foreground="#FF39FF14" HorizontalAlignment="Center" VerticalAlignment="Center" Width="324" Height="38" Text="" Margin="390,206,70.2,194" Background="Black" FontSize="20" CaretBrush="#FF39FF14" BorderBrush="Black" BorderThickness="0" VerticalContentAlignment="Center"  x:Name="thaxUsername"/>
+        <TextBox Foreground="#FF39FF14" HorizontalAlignment="Center" VerticalAlignment="Center" Width="324" Height="38" Text="" Margin="390,243,70.2,157" Background="Black" FontSize="20" CaretBrush="#FF39FF14" BorderBrush="Black" BorderThickness="0" VerticalContentAlignment="Center"  x:Name="thaxPassword"/>
+        <TextBox Foreground="#FF39FF14" HorizontalAlignment="Center" VerticalAlignment="Center" Width="324" Height="38" Text="" Margin="390,320,70.2,80"  Background="Black" FontSize="20" CaretBrush="#FF39FF14" BorderBrush="Black" BorderThickness="0" VerticalContentAlignment="Center"  x:Name="commandBox" KeyDown="commandBox_KeyDown" />
+
+    </Grid>
+</UserControl>
+    
